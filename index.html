@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        :root {
+            --primary-red: #b30000;
+            --gold: #d4af37;
+            --light-grey: #f4f4f4;
+        }
+        
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; }
+
+        .top-bar {
+            background: var(--primary-red);
+            color: white;
+            padding: 10px 5%;
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+
+        nav {
+            background: white;
+            padding: 20px 5%;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .nav-links { list-style: none; display: flex; gap: 25px; }
+        .nav-links a { text-decoration: none; color: #333; font-weight: bold; text-transform: uppercase; }
+        
+        .hero {
+            height: 450px;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('your-image-here.jpg');
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <span>Welcome to the Official Portal</span>
+        <span>Contact: info@organization.org</span>
+    </div>
+
+    <nav>
+        <img src="logo.png" alt="Logo" height="60">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Leadership</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>UNITE FOR THE FUTURE</h1>
+    </section>
+
+</body>
+</html>
